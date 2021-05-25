@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
+import icono from "../img/logo/UPS.png";
+
+import "../css/footer.css";
 
 const Footer = ({ idioma }) => {
   const [texto, setTexto] = useState({});
@@ -91,7 +94,7 @@ const Footer = ({ idioma }) => {
               </nav>
               <div className="socials-a">
                 <ul className="list-inline">
-                  <li className="list-inline-item">
+                  {/* <li className="list-inline-item">
                     <NavLink exact to="/">
                       <i className="fa fa-facebook" aria-hidden="true"></i>
                     </NavLink>
@@ -115,6 +118,11 @@ const Footer = ({ idioma }) => {
                     <NavLink exact to="/">
                       <i className="fa fa-dribbble" aria-hidden="true"></i>
                     </NavLink>
+                  </li> */}
+                  <li className="list-inline-item">
+                    <a href="https://pure.ups.edu.ec/es/organisations/spatial-data-infrastructure-geoportals-artificial-intelligence-an/publications/" target="_blank">
+                      <img src={icono} width="30" />
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -126,9 +134,9 @@ const Footer = ({ idioma }) => {
               </div>
               <div className="credits">
                 Designed by{" "}
-                <NavLink exact to="https://bootstrapmade.com/">
+                <a href="https://bootstrapmade.com/" target="_blank">
                   BootstrapMade
-                </NavLink>
+                </a>
               </div>
             </div>
           </div>
