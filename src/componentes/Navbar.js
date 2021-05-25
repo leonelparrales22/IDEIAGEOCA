@@ -18,6 +18,7 @@ const Navbar = ({ setLanguage, idioma }) => {
         Training: "Training",
         AboutUs: "About Us",
         contact: "Contact",
+        lan: "es",
       });
     } else {
       setTexto({
@@ -31,6 +32,7 @@ const Navbar = ({ setLanguage, idioma }) => {
         Training: "Entrenamiento",
         AboutUs: "Acerca de",
         contact: "Contacto",
+        lan: "en",
       });
     }
   }, [idioma]);
@@ -46,8 +48,10 @@ const Navbar = ({ setLanguage, idioma }) => {
           </button>
 
           <img src={logo} alt="IDEIAGEOCA" width="240px" />
-          <button type="button" className="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-expanded="false">
-            <span className="fa fa-search" aria-hidden="true"></span>
+          {/* btn btn-b-n navbar-toggle-box-collapse d-none d-md-block */}
+          <button type="button" className="btn btn-b-n nav-search navbar-toggle-box-collapse d-md-none" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-expanded="false" onClick={setLanguage}>
+            {/* <span className="fa fa-search" aria-hidden="true"></span> */}
+            {texto.lan}
           </button>
           <div className="navbar-collapse collapse justify-content-center" id="navbarDefault">
             <ul className="navbar-nav">
