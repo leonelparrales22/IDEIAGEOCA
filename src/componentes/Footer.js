@@ -121,7 +121,7 @@ const Footer = ({ idioma }) => {
                   </li> */}
                   <li className="list-inline-item">
                     <a href="https://pure.ups.edu.ec/es/organisations/spatial-data-infrastructure-geoportals-artificial-intelligence-an/publications/" target="_blank">
-                      <img src={icono} width="30" />
+                      <img src={icono} width="30" className="zoom"/>
                     </a>
                   </li>
                 </ul>

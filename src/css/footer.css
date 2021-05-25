@@ -1,7 +1,7 @@
-fb-icon {
-  background: none;
+.zoom {
+  transition: 0.15s;
 }
 
-fb-icon:hover {
-  background: #0000ff;
+.zoom:hover {
+  transform: scale(1.2); 
 }
