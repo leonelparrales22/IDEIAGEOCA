@@ -15,7 +15,6 @@ const Navbar = ({ setLanguage, idioma }) => {
         projects: "Projects",
         language: "Español",
         Publications: "Publications",
-        Training: "Training",
         AboutUs: "About Us",
         contact: "Contact",
         lan: "es",
@@ -29,7 +28,6 @@ const Navbar = ({ setLanguage, idioma }) => {
         projects: "Proyectos",
         language: "English",
         Publications: "Publicaciones",
-        Training: "Entrenamiento",
         AboutUs: "Acerca de",
         contact: "Contacto",
         lan: "en",
@@ -104,11 +102,6 @@ const Navbar = ({ setLanguage, idioma }) => {
               <li className="nav-item">
                 <NavLink className="nav-link letra-navbar" exact to="/Publications">
                   {texto.Publications}
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link letra-navbar" exact to="/Training">
-                  {texto.Training}
                 </NavLink>
               </li>
               <li className="nav-item">

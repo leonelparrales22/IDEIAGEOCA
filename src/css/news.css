@@ -1,0 +1,8 @@
+
+.zoom-news {
+    transition: 0.5s;
+  }
+  
+  .zoom-news:hover {
+    transform: scale(1.11); 
+  }

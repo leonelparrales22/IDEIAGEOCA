@@ -5,3 +5,12 @@
 .zoom:hover {
   transform: scale(1.2); 
 }
+
+
+.zoom-research {
+  transition: 0.5s;
+}
+
+.zoom-research:hover {
+  transform: scale(1.03); 
+}

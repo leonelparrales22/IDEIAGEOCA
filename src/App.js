@@ -11,7 +11,6 @@ import News from "./componentes/subsecciones/News";
 import Project from "./componentes/subsecciones/Project";
 import Publicaciones from "./componentes/subsecciones/Publicaciones";
 import Research from "./componentes/subsecciones/Research";
-import Training from "./componentes/subsecciones/Training";
 
 const App = () => {
   const [language, setLanguage] = useState(true);
@@ -31,7 +30,6 @@ const App = () => {
           <Route exact path="/News" component={() => <News idioma={language} />} />
           <Route exact path="/Projects" component={() => <Project idioma={language} />} />
           <Route exact path="/Publications" component={() => <Publicaciones idioma={language} />} />
-          <Route exact path="/Training" component={() => <Training idioma={language} />} />
           <Route exact path="/AboutUs" component={() => <About idioma={language} />} />
           <Route exact path="/Contact" component={() => <Contact idioma={language} />} />
           <Route exact path="/" component={() => <Carrusel idioma={language} />}/>

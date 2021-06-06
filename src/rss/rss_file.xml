@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>REASEARCH GROUP IDEIAGEOCA</title>
+  <link>https://grupoia.ec/</link>
+  <description>INFRAESTRUCTURA DE DATOS ESPACIALES INTELIGENCIA ARTIFICIAL GEOPORTALES Y COMPUTACIÓN APLICADA</description>
+  <item>
+    <title>AI News</title>
+    <link>https://artificialintelligence-news.com/</link>
+    <description>Artificial Intelligence News provides the latest AI news and trends. Explore industry research and reports from the frontline of AI technology news.</description>
+  </item>
+  <item>
+    <title>MIT News</title>
+    <link>https://news.mit.edu/topic/artificial-intelligence2</link>
+    <description>Artificial intelligence News</description>
+  </item>
+  <item>
+    <title>Wired | Artificial Intelligence</title>
+    <link>https://www.wired.com/tag/artificial-intelligence/</link>
+    <description>Find the latest Artificial Intelligence news from WIRED. See related science and technology articles, photos, slideshows and videos.</description>
+  </item>
+  <item>
+    <title>The New York Times | Artificial Intelligence</title>
+    <link>https://www.nytimes.com/topic/subject/artificial-intelligence</link>
+    <description>News about Artificial Intelligence, including commentary and archival articles published in The New York Times.</description>
+  </item>
+   <item>
+    <title>Machine learning and AI news</title>
+    <link>https://techxplore.com/machine-learning-ai-news/</link>
+    <description>Machine learning and AI news. Following e-cigarette conversations on Twitter using artificial intelligence.</description>
+  </item>
+  <item>
+    <title>Euronews | ARTIFICIAL INTELLIGENCE</title>
+    <link>https://www.euronews.com/tag/artificial-intelligence</link>
+    <description>Information about Artificial intelligence. Select the subjects you want to know more about on euronews.com.</description>
+  </item>
+  <item>
+    <title>Phys.org | Machine learning</title>
+    <link>https://www.euronews.com/tag/artificial-intelligence</link>
+    <description>The latest news on Artificial Intelligence and Machine Learning.</description>
+  </item>
+  <item>
+    <title>InfoWorld | Machine learning</title>
+    <link>https://www.infoworld.com/category/machine-learning/</link>
+    <description>Machine Learning | News, how-tos, features, reviews, and videos.</description>
+  </item>
+  <item>
+    <title>The Economics Times | MACHINE LEARNING</title>
+    <link>https://economictimes.indiatimes.com/topic/machine-learning</link>
+    <description>Economic Times. machine learning Blogs, Comments and Archive.</description>
+  </item>
+  <item>
+    <title>New Scientist</title>
+    <link>https://www.newscientist.com/article-topic/machine-learning/</link>
+    <description>New Scientist: LATEST IN MACHINE LEARNING.</description>
+  </item>
+</channel>
+</rss>

@@ -17,7 +17,6 @@ const Footer = ({ idioma }) => {
         projects: "Projects",
         language: "Español",
         Publications: "Publications",
-        Training: "Training",
         AboutUs: "About Us",
         contact: "Contact",
       });
@@ -30,7 +29,6 @@ const Footer = ({ idioma }) => {
         projects: "Proyectos",
         language: "English",
         Publications: "Publicaciones",
-        Training: "Entrenamiento",
         AboutUs: "Acerca de",
         contact: "Contacto",
       });
@@ -76,11 +74,6 @@ const Footer = ({ idioma }) => {
                     </NavLink>
                   </li>
                   <li className="list-inline-item">
-                    <NavLink exact to="/Training">
-                      {texto.Training}
-                    </NavLink>
-                  </li>
-                  <li className="list-inline-item">
                     <NavLink exact to="/AboutUs">
                       {texto.AboutUs}
                     </NavLink>
@@ -121,7 +114,7 @@ const Footer = ({ idioma }) => {
                   </li> */}
                   <li className="list-inline-item">
                     <a href="https://pure.ups.edu.ec/es/organisations/spatial-data-infrastructure-geoportals-artificial-intelligence-an/publications/" target="_blank">
-                      <img src={icono} width="30" className="zoom"/>
+                      <img src={icono} width="30" className="zoom" />
                     </a>
                   </li>
                 </ul>

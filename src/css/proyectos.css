@@ -2,24 +2,31 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.publicacion-encabezado-1 {
+.publicacion-encabezado-1-proyectos {
   font-family: "Times New Roman", Times, serif;
   color: rgb(57, 103, 195);
   transition: 10s;
 }
 
-.publicacion-encabezado-1:hover {
+.publicacion-encabezado-1-proyectos:hover {
   text-decoration: underline rgb(57, 103, 195);
 }
 
-.publicacion-encabezado-2 {
+.publicacion-encabezado-2-proyectos {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   color: rgb(109, 108, 109);
 }
 
-.publicacion-encabezado-3 {
+.publicacion-encabezado-3-proyectos {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   font-style: italic;
 }
+
+
+.proyectos_cover {
+  background-image: url("../img/research/research_1.png");
+}
+
+

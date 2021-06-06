@@ -1,4 +1,9 @@
 import React, { useState, useEffect } from "react";
+import { NavLink } from "react-router-dom";
+import "../../css/news.css";
+
+import FILX from "../../rss/rss_file.xml";
+import RSS from "../../img/News/RSS.png";
 
 const News = ({ idioma }) => {
   const [texto, setTexto] = useState({});
@@ -6,46 +11,32 @@ const News = ({ idioma }) => {
     if (idioma) {
       setTexto({
         title: "News",
-        contact: "Under construction...",
-        Coordinador: "Coordinator:",
-        Contacto: "Contact:",
-        disculpe: "Sorry for the inconvenience.",
+        subtitle: "Download RSS feed",
       });
     } else {
       setTexto({
         title: "Nuevo",
-        contact: "En construcción...",
-        Coordinador: "Coordinador:",
-        Contacto: "Contacto:",
-        disculpe: "Disculpe las molestias.",
+        subtitle: "Descarga RSS feed",
       });
     }
   }, [idioma]);
   return (
-    <>
-      <section class="intro-single animate__animated animate__pulse">
+    <div className="animate__animated animate__fadeIn">
+      <section class="intro-single">
         <div class="container">
           <div class="row">
             <div class="col-md-12 col-lg-8">
               <div class="title-single-box">
                 <h1 class="title-single">{texto.title}</h1>
-                <h3 class="title-single">{texto.contact}</h3>
-
-                <span class="color-text-a">
-                  <br />
-                  {/* <b>{texto.Coordinador}</b> <br /> */}
-                  {texto.disculpe} <br />
-                  <br />
-                  {/* <b>{texto.Contacto}</b> <br /> */}
-                  {/* gnavas@ups.edu.ec */}
-                </span>
               </div>
             </div>
             <div class="col-md-12 col-lg-4">
               <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item">
-                    <a href="#">Home</a>
+                    <NavLink exact to="/News">
+                      Home
+                    </NavLink>
                   </li>
                   <li class="breadcrumb-item active" aria-current="page">
                     {texto.title}
@@ -56,7 +47,30 @@ const News = ({ idioma }) => {
           </div>
         </div>
       </section>
-    </>
+
+      <section class="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="contact-map box">
+                <div id="map" class="contact-map texto-justificado">
+                  <div class="col-md-12 col-lg-12 text-center">
+                    <a href={FILX} target="_blank">
+                      <h2 className="pb-4">{texto.subtitle}</h2>
+                      <img src={RSS} class="img-fluid zoom-news" width="200" />
+                    </a>
+                  </div>
+                  <br />
+
+                  <br />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br />
+    </div>
   );
 };
 
