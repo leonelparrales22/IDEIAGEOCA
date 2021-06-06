@@ -151,7 +151,7 @@ const Project = ({ idioma }) => {
                             title="Nondeterministic Finite Automata for Modeling an Ecuadorian Sign Language Interpreter"
                             abstract={texto.descripciones?.cuatro}
                             link="https://link.springer.com/chapter/10.1007%2F978-3-030-51328-3_51"
-                            foto={proyecto3}
+                            foto={""}
                             app="https://github.com/dievalhu/LSEC_Ecuadorian_Sign_Language/tree/master/src/model"
                             mas={texto.mas_informacion}
                           />
