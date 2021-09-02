@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from "react";
 import diego from "../../img/miembros/diego-card.png";
 import tufinio from "../../img/miembros/tufinio-card.png";
-import arevalo from "../../img/miembros/arevalo-card.png";
 import holger from "../../img/miembros/holger-card.png";
 import paulina from "../../img/miembros/paulina-card.png";
 import mafer from "../../img/miembros/mafer-card.png";
 import julio from "../../img/miembros/julio-card.png";
-import navar from "../../img/miembros/navas-card.png";
 
 import Miembros_card from "../subcomponentes/Miembros_card";
 
@@ -38,17 +36,18 @@ const Members = ({ idioma }) => {
             </div>
           </div>
           <div class="row">
-            <Miembros_card nombre={"Gustavo"} apellido={"Navas"} email={"dvallejo@ups.edu.ec"} foto={navar} />
+            {/* <Miembros_card nombre={"Gustavo"} apellido={"Navas"} email={"dvallejo@ups.edu.ec"} foto={navar} /> */}
             <Miembros_card nombre={"Diego"} apellido={"Vallejo"} email={"dvallejoh@ups.edu.ec"} foto={diego} />
             <Miembros_card nombre={"Holger"} apellido={"Ortega"} email={"hortega@ups.edu.ec"} foto={holger} />
+            <Miembros_card nombre={"Julio"} apellido={"Proaño"} email={"jproanoo@ups.edu.ec"} foto={julio} />
           </div>
         </div>
         <br />
         <div class="container">
           <div class="row">
-            <Miembros_card nombre={"Julio"} apellido={"Proaño"} email={"jproanoo@ups.edu.ec"} foto={julio} />
             <Miembros_card nombre={"Paulina"} apellido={"Morillo"} email={"pmorillo@ups.edu.ec"} foto={paulina} />
             <Miembros_card nombre={"Rodrigo"} apellido={"Tufiño"} email={"rtufino@ups.edu.ec"} foto={tufinio} />
+            <Miembros_card nombre={"Maria"} apellido={"Cazares"} email={"mcazares@ups.edu.ec"} foto={mafer} />
           </div>
         </div>
 
@@ -56,8 +55,7 @@ const Members = ({ idioma }) => {
         <br />
         <div class="container">
           <div class="row">
-            <Miembros_card nombre={"Alonso"} apellido={"Arevalo"} email={"aarevalo@ups.edu.ec"} foto={arevalo} />
-            <Miembros_card nombre={"Maria"} apellido={"Cazares"} email={"mcazares@ups.edu.ec"} foto={mafer} />
+            {/* <Miembros_card nombre={"Alonso"} apellido={"Arevalo"} email={"aarevalo@ups.edu.ec"} foto={arevalo} /> */}
             {/* <div class="col-md-4">
               <div class="card-box-d">
                 <div class="card-img-d">

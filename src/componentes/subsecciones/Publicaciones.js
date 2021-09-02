@@ -161,13 +161,6 @@ const Publicaciones = ({ idioma }) => {
                   />
 
                   <Publicaciones_publicacion
-                    encabezado1="Estimation of people flow in public transportation network through the origin-destination problem for the South-Eastern corridor of Quito city in the smart cities context"
-                    encabezado2="Zapata, L. P., Flores, M., Larios, V., Maciel, R. & Antunez, E. A., oct 2019, 5th IEEE International Smart Cities Conference, ISC2 2019. Institute of Electrical and Electronics Engineers Inc., p. 181-186 6 p. 9071778. (5th IEEE International Smart Cities Conference, ISC2 2019)."
-                    encabezado3="Resultado de la investigación: Capítulo del libro/informe/acta de congreso › Contribución de conferencia › revisión exhaustiva"
-                    enlace="https://ieeexplore.ieee.org/document/9071778"
-                  />
-
-                  <Publicaciones_publicacion
                     encabezado1="Fault-tolerant model based on fuzzy control for mobile devices"
                     encabezado2="Vallejo-Huanga, D., Proaño, J., Morillo, P. & Ortega, H., 1 ene 2019, Communications in Computer and Information Science. Botto-Tobar, M., D’Armas, M., Zúñiga Sánchez, M., Zúñiga-Prieto, M. & Pizarro, G. (eds.). Springer Verlag, p. 488-499 12 p. (Communications in Computer and Information Science; vol. 895)."
                     encabezado3="Resultado de la investigación: Capítulo del libro/informe/acta de congreso › Capítulo › revisión exhaustiva"
@@ -198,13 +191,6 @@ const Publicaciones = ({ idioma }) => {
                     encabezado2="Cazares Zabala, M. F., 28 ago 2019, Mentoría: Una Experiencia De Aprendizaje Personalizado. Editorial Abya-Yala"
                     encabezado3="Resultado de la investigación: Capítulo del libro/informe/acta de congreso › Capítulo"
                     enlace="https://pure.ups.edu.ec/es/publications/mentoring-a-personalized-learning-experience"
-                  />
-
-                  <Publicaciones_publicacion
-                    encabezado1="Modeling the prevalence of respiratory chronic diseases risk using satellite images and environmental data"
-                    encabezado2="Alvarez-Mendoza, C. I., Teodoro, A., Ordonez, J., Benitez, A., Freitas, A. & Fonseca, J., 1 ene 2019, Remote Sensing Technologies and Applications in Urban Environments IV. Erbertseder, T., Chrysoulakis, N., Zhang, Y. & Baier, F. (eds.). SPIE, 1115705. (Proceedings of SPIE - The International Society for Optical Engineering; vol. 11157)."
-                    encabezado3="Resultado de la investigación: Capítulo del libro/informe/acta de congreso › Contribución de conferencia › revisión exhaustiva"
-                    enlace="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11157/1115705/Modeling-the-prevalence-of-respiratory-chronic-diseases-risk-using-satellite/10.1117/12.2532508.short?SSO=1"
                   />
 
                   <Publicaciones_publicacion
@@ -305,13 +291,7 @@ const Publicaciones = ({ idioma }) => {
                     enlace="https://www.researchgate.net/publication/323787398_Software_Development_Governance_for_VSE-SCRUM_Teams_Model_and_Evaluation_in_a_Developing_Country"
                   />
                   <Publicaciones_publicacion
-                    encabezado1="Agrupamiento con restricciones para configurar sesiones en conferencias científicas con R + Shiny"
-                    encabezado2="Diego Vallejo-Huanga, Paulina Morillo, Cèsar Ferri, “Agrupamiento con restricciones para configurar sesiones en conferencias científicas con R + Shiny”, X Jornadas de Usuarios de R XjuR, Murcia, Spain, November 22-23, 2018."
-                    enlace="https://gauss.inf.um.es/umur/xjurponencias/programa-Xjur.pdf"
-                  />
-
-                  <Publicaciones_publicacion
-                    encabezado1="UCI Machine Learning Repository"
+                    encabezado1="ICMLA 2014 Accepted Papers Data Set Data Set"
                     encabezado2="Diego Vallejo-Huanga, Paulina Morillo, Cèsar Ferri, UCI Machine Learning Repository, University of California - Irvine, 2018."
                     enlace="http://archive.ics.uci.edu/ml/datasets/ICMLA+2014+Accepted+Papers+Data+Set"
                   />
@@ -338,12 +318,6 @@ const Publicaciones = ({ idioma }) => {
                     enlace="https://www.redalyc.org/jatsRepo/5722/572261715003/html/index.html"
                   />
                   <Publicaciones_publicacion
-                    encabezado1="Migración De Fuentes Sísmicas A Lo Largo Del Cinturón De Fuego Del Pacífico"
-                    encabezado2="Alvarez Mendoza, C. I., Lopez Mosquera, A. M. & Villarreal Chuga, E. M., 1 jun 2017, En: La Granja. 25, 1"
-                    encabezado3="Resultado de la investigación: Contribución a una revista › Artículo › revisión exhaustiva"
-                    enlace="https://www.redalyc.org/jatsRepo/4760/476051824001/html/index.html"
-                  />
-                  <Publicaciones_publicacion
                     encabezado1="Semi-Supervised Clustering Algorithms For Grouping Scientific Articles"
                     encabezado2="Vallejo Huanga, D. F. & Morillo Alcivar, P. A., 9 jun 2017, En: Procedia Computer Science. 108, 2017"
                     encabezado3="Resultado de la investigación: Contribución a una revista › Artículo › revisión exhaustiva"
@@ -367,35 +341,7 @@ const Publicaciones = ({ idioma }) => {
                   />
 
                   <br />
-                  <h3 className="anio">2015</h3>
-                  <hr />
-                  <Publicaciones_publicacion
-                    encabezado1="Grid Platform for Medical Federated Queries Supporting Semantic and Visual Annotations"
-                    encabezado2="De La Cruz, A., Gualán, R., Guillermo, J., Pérez, W., Ramirez Montalvan, W. A. & Solano-Quinde, L., 22 dic 2015."
-                    encabezado3="Resultado de la investigación: Contribución a una conferencia › Documento"
-                    enlace="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/9681/96810Z/Grid-platform-for-medical-federated-queries-supporting-semantic-and-visual/10.1117/12.2214163.short"
-                  />
-                  <Publicaciones_publicacion
-                    encabezado1="Plataforma para la Búsqueda por Contenido Visual y Semántico de Imágenes Médicas"
-                    encabezado2="Ramirez Montalvan, W. A., 31 dic 2015."
-                    encabezado3="Resultado de la investigación: Contribución a una conferencia › Documento"
-                    enlace="https://www.researchgate.net/publication/292328988_Plataforma_para_la_Busqueda_por_Contenido_Visual_y_Semantico_de_Imagenes_Medicas"
-                  />
-
-                  <Publicaciones_publicacion
-                    encabezado1="TransparencyScience: Return on research investment, where do the funds go?"
-                    encabezado2="Lidia Contreras, Cristina Font, Paulina Morillo, Diego Vallejo-Huanga, “TransparencyScience: Return on research investment, where do the funds go?”, Proceedings of the iConference 2015, University of California Irvine, California, USA, March 24-27, 2015."
-                    enlace="https://www.ideals.illinois.edu/handle/2142/73782"
-                  />
-                  <br />
-                  <h3 className="anio">2012</h3>
-                  <hr />
-                  <Publicaciones_publicacion
-                    encabezado1="Estudio y simulación de turbo códigos utilizando el algoritmo MAP y SOVA"
-                    encabezado2="Diego Vallejo-Huanga, Robin Álvarez, “Estudio y simulación de turbo códigos utilizando el algoritmo MAP y SOVA”, Proceedings of the XXIV Conference of Electrical and Electronic Engineering – FIEE, Escuela Politécnica Nacional, Quito, Ecuador, August 15-17, 2012."
-                    enlace="https://bibdigital.epn.edu.ec/handle/15000/4905"
-                  />
-                  <br />
+                 
                   {/* <Publicaciones_publicacion
                       encabezado1=""
                       encabezado2=""

@@ -68,11 +68,11 @@ const Navbar = ({ setLanguage, idioma }) => {
                   {texto.members}
                 </NavLink>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <NavLink className="nav-link letra-navbar" exact to="/News">
                   {texto.news}
                 </NavLink>
-              </li>
+              </li> */}
 
               {/* dropdown */}
               {/* <li className="nav-item dropdown">

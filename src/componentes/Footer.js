@@ -58,11 +58,11 @@ const Footer = ({ idioma }) => {
                       {texto.members}
                     </NavLink>
                   </li>
-                  <li className="list-inline-item">
+                  {/* <li className="list-inline-item">
                     <NavLink exact to="/News">
                       {texto.news}
                     </NavLink>
-                  </li>
+                  </li> */}
                   <li className="list-inline-item">
                     <NavLink exact to="/Projects">
                       {texto.projects}
