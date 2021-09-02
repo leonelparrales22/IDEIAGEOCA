@@ -58,6 +58,11 @@ const Publicaciones = ({ idioma }) => {
                   <h3 className="anio">2021</h3>
                   <hr />
                   <Publicaciones_publicacion
+                    encabezado1="Quantitative evaluation of family functions and changes in a postmodern context"
+                    encabezado2="Catya Torres, Diego Vallejo-Huanga, Ximena Ramírez-Ocaña, “Quantitative evaluation of family functions and changes in a postmodern context”, Journal Heliyon, Cell Press, Netherlands, ISSN: 2405-8440, 2021."
+                    enlace="https://doi.org/10.1016/j.heliyon.2021.e07435"
+                  />
+                  <Publicaciones_publicacion
                     encabezado1="Nondeterministic Finite Automata for Modeling an Ecuadorian Sign Language Interpreter"
                     encabezado2="Guerra, J., Vallejo-Huanga, D., Jaramillo, N., Macas, R. & Díaz, D., 2021, Advances in Artificial Intelligence, Software and Systems Engineering - Proceedings of the AHFE 2020 Virtual Conferences on Software and Systems
                       Engineering, and Artificial Intelligence and Social Computing. Ahram, T. (ed.). Springer, p. 369-376 8 p. (Advances in Intelligent Systems and Computing; vol. 1213 AISC)."
@@ -341,7 +346,7 @@ const Publicaciones = ({ idioma }) => {
                   />
 
                   <br />
-                 
+
                   {/* <Publicaciones_publicacion
                       encabezado1=""
                       encabezado2=""

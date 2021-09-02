@@ -5,6 +5,8 @@ import Project_proyectos from "../subcomponentes/Project_proyectos";
 import proyecto1 from "../../img/projects/Project_1.png";
 import proyecto2 from "../../img/projects/Project_2.png";
 import proyecto3 from "../../img/projects/Project_3.png";
+import proyecto5 from "../../img/projects/Project_5.png";
+import proyecto6 from "../../img/projects/Project_6.png";
 
 import { Accordion, Card, Button } from "react-bootstrap";
 
@@ -24,6 +26,9 @@ const Project = ({ idioma }) => {
           tres: "The huge amount of textual information that exists on social networks added by users through comments, has aroused a great interest in companies and research groups, which seek to use this information to identify trends and acceptance levels of brands, products, and services. A technique to know the level of acceptance or rejection of a particular topic, in an automated way, is the Sentiment Analysis. Some informatics tools incorporate this technique, however, there are few contributions to texts in Spanish. It is because of the difficulty of identifying different contexts, dialects, complex grammatical structures, and semantic language variances in each region. This article presents a web tool for the analysis of sentiments in texts written in Spanish that include Ecuadorian dialect or idioms. The tool was developed in R-Shiny with an approach lexicon-based. The tool allows the customization of the lexicons based on context and facilitates the automatic download of tweets according to search criteria such as the place, dates, and topic. To evaluate the effectiveness of the application, their result was compared with two commercial tools (Azure Text Analytics and IBM Watson NLU) and a manual score carried out by a group of people. The tests include the analysis of three corpora created from tweets. The results show the effectiveness of the tool to identify the sentiment polarity, especially in texts that include dialects, colloquial words, and negative expressions.",
           cuatro:
             "This paper presents a stand-alone application for text interpretation to Ecuadorian Sign Language (LSEC), modeled by a nondeterministic finite automaton (NFA), lexical analysis and regular expressions. This application will allow you to interpret a text entered by a user and present it through GIF graphic resources, thus allowing you to establish unidirectional communication between a hearing person and a person with hearing impairment. Our application is developed under MVC architecture. The state machine and lexical analyzer are in the model layer, which will be handled by the controller layer and that will allow the user to receive the inputs and send the outputs through the view layer. We evaluate the effectiveness of the tool using an LSEC dictionary with a total of 275 words and idioms, for different users with hearing impairment, and the results showed that our application is robust and fast.",
+          cinco:
+            "Natural Language Processing, NLP, is one of the most popular fields of Artificial Intelligence and its applications are diverse. This article presents a recommender system, through a web application, that extracts the lyrics of a song entered in audio format and uses NLP techniques to process the textual corpus of the lyrics and recommend a title for the song. The level of effectiveness of the system was analyzed, measuring the percentage of similarity between the ground truth, which is the original title of the song, and our recommendation. For the experiments, a dataset of 30 songs was used divided into three taxonomies, small, medium, and large, that change according to the length of tokens of the original title. The results show an accuracy of 70% for small titles and 20% for medium and long titles. It is also shown that the web tool is enabled to formulate control of lexical content in songs since it does not use the original title of the song as input.",
+          seis: "Cancer is one of the diseases with the highest incidence in humans and several drugs have been developed to combat it and alleviate its symptoms. Most of these drugs are thermolabile, i.e., require special temperature conditions for their conservation. On the other hand, Machine Learning algorithms provide computers with the ability to identify a pattern through the use of data and are frequently used to make predictions. This article presents a web application with supervised machine learning algorithms for predicting the deterioration of thermolabile cancer drugs. For the algorithm's training, a dataset from an Ecuadorian pharmaceutical distribution company was used, with temperature parameters measured during the distribution of the drugs in the cold chain. The results showed that, for the test set, the Artificial Neural Network algorithm had the best performance with an F1-score of 67% and an AUC of 85%, while the Naïve Bayes algorithm was the worst performer with an F1-score of 40% and AUC of 58%. In addition, the operation of the web application and its predictive capacity was verified, through tests with three scenarios that characterize drug shipments with taxonomies derived from the minimum, average, and maximum statistics of the dataset.",
         },
         mas_informacion: "More information: ",
       });
@@ -40,6 +45,9 @@ const Project = ({ idioma }) => {
           tres: "La enorme cantidad de información textual que existe en las redes sociales añadida por los usuarios a través de los comentarios, ha despertado un gran interés en empresas y grupos de investigación, que buscan utilizar esta información para identificar tendencias y niveles de aceptación de marcas, productos y servicios. Una técnica para conocer el nivel de aceptación o rechazo de un determinado tema, de forma automatizada, es el Análisis de Sentimiento. Algunas herramientas informáticas incorporan esta técnica, sin embargo, hay pocas aportaciones a textos en español. Esto se debe a la dificultad de identificar los diferentes contextos, dialectos, estructuras gramaticales complejas y variantes semánticas del lenguaje en cada región. Este artículo presenta una herramienta web para el análisis de sentimientos en textos escritos en español que incluyen dialectos o modismos ecuatorianos. La herramienta fue desarrollada en R-Shiny con un enfoque basado en el léxico. La herramienta permite la personalización de los léxicos en función del contexto y facilita la descarga automática de tuits según criterios de búsqueda como el lugar, las fechas y el tema. Para evaluar la eficacia de la aplicación, su resultado se comparó con dos herramientas comerciales (Azure Text Analytics e IBM Watson NLU) y con una puntuación manual realizada por un grupo de personas. Las pruebas incluyen el análisis de tres corpus creados a partir de tuits. Los resultados muestran la eficacia de la herramienta para identificar la polaridad del sentimiento, especialmente en textos que incluyen dialectos, palabras coloquiales y expresiones negativas.",
           cuatro:
             "Este trabajo presenta una aplicación autónoma para la interpretación de textos a la Lengua de Signos Ecuatoriana (LSEC), modelada mediante un autómata finito no determinista (NFA), análisis léxico y expresiones regulares. Esta aplicación permitirá interpretar un texto introducido por un usuario y presentarlo a través de recursos gráficos GIF, permitiendo así establecer una comunicación unidireccional entre una persona oyente y una persona con discapacidad auditiva. Nuestra aplicación está desarrollada bajo arquitectura MVC. La máquina de estados y el analizador léxico se encuentran en la capa de modelo, que será manejada por la capa de controlador y que permitirá al usuario recibir las entradas y enviar las salidas a través de la capa de vista. Evaluamos la eficacia de la herramienta utilizando un diccionario LSEC con un total de 275 palabras y frases hechas, para diferentes usuarios con discapacidad auditiva, y los resultados mostraron que nuestra aplicación es robusta y rápida.",
+          cinco:
+            "El Procesamiento del Lenguaje Natural, PLN, es uno de los campos más populares de la Inteligencia Artificial y sus aplicaciones son diversas. Este artículo presenta un sistema recomendador, a través de una aplicación web, que extrae la letra de una canción introducida en formato de audio y utiliza técnicas de PLN para procesar el corpus textual de la letra y recomendar un título para la canción. Se analizó el nivel de eficacia del sistema, midiendo el porcentaje de similitud entre la verdad básica, que es el título original de la canción, y nuestra recomendación. Para los experimentos se utilizó un conjunto de datos de 30 canciones divididas en tres taxonomías, pequeña, mediana y grande, que cambian según la longitud de los tokens del título original. Los resultados muestran una precisión del 70% para los títulos pequeños y del 20% para los títulos medianos y largos. También se demuestra que la herramienta web está capacitada para formular el control del contenido léxico de las canciones, ya que no utiliza el título original de la canción como entrada.",
+          seis: "El cáncer es una de las enfermedades con mayor incidencia en el ser humano y se han desarrollado varios fármacos para combatirlo y aliviar sus síntomas. La mayoría de estos fármacos son termolábiles, es decir, requieren condiciones especiales de temperatura para su conservación. Por otro lado, los algoritmos de Machine Learning proporcionan a los ordenadores la capacidad de identificar un patrón mediante el uso de datos y se utilizan frecuentemente para realizar predicciones. Este artículo presenta una aplicación web con algoritmos de aprendizaje automático supervisado para la predicción del deterioro de los medicamentos oncológicos termolábiles. Para el entrenamiento del algoritmo se utilizó un conjunto de datos de una empresa ecuatoriana de distribución farmacéutica, con parámetros de temperatura medidos durante la distribución de los medicamentos en la cadena de frío. Los resultados mostraron que, para el conjunto de pruebas, el algoritmo de la Red Neural Artificial tuvo el mejor rendimiento con una puntuación F1 del 67% y un AUC del 85%, mientras que el algoritmo Naïve Bayes fue el de peor rendimiento con una puntuación F1 del 40% y un AUC del 58%. Además, se verificó el funcionamiento de la aplicación web y su capacidad de predicción, a través de pruebas con tres escenarios que caracterizan los envíos de medicamentos con taxonomías derivadas de las estadísticas mínimas, medias y máximas del conjunto de datos.",
         },
         mas_informacion: "Más información: ",
       });
@@ -142,10 +150,50 @@ const Project = ({ idioma }) => {
                     <Card>
                       <Card.Header>
                         <Accordion.Toggle as={Button} variant="link" eventKey="3">
-                          Nondeterministic Finite Automata for Modeling an Ecuadorian Sign Language Interpreter
+                          AuTGeLy: Automatic Title Generator based on Song Lyrics Extractions
                         </Accordion.Toggle>
                       </Card.Header>
                       <Accordion.Collapse eventKey="3">
+                        <Card.Body>
+                          <Project_proyectos
+                            title="AuTGeLy: Automatic Title Generator based on Song Lyrics Extractions"
+                            abstract={texto.descripciones?.cinco}
+                            link="https://title-song-recommender.herokuapp.com/"
+                            foto={proyecto5}
+                            app="https://title-song-recommender.herokuapp.com/"
+                            mas={texto.mas_informacion}
+                          />
+                        </Card.Body>
+                      </Accordion.Collapse>
+                    </Card>
+
+                    <Card>
+                      <Card.Header>
+                        <Accordion.Toggle as={Button} variant="link" eventKey="4">
+                          Prediction of Anticancer Drug Deterioration with Machine Learning Algorithms
+                        </Accordion.Toggle>
+                      </Card.Header>
+                      <Accordion.Collapse eventKey="4">
+                        <Card.Body>
+                          <Project_proyectos
+                            title="Prediction of Anticancer Drug Deterioration with Machine Learning Algorithms"
+                            abstract={texto.descripciones?.seis}
+                            link="https://acardenas-sla-algorithms.shinyapps.io/ML_Algorithms-Thermo_Dataset/"
+                            foto={proyecto6}
+                            app="https://acardenas-sla-algorithms.shinyapps.io/ML_Algorithms-Thermo_Dataset/"
+                            mas={texto.mas_informacion}
+                          />
+                        </Card.Body>
+                      </Accordion.Collapse>
+                    </Card>
+
+                    <Card>
+                      <Card.Header>
+                        <Accordion.Toggle as={Button} variant="link" eventKey="5">
+                          Nondeterministic Finite Automata for Modeling an Ecuadorian Sign Language Interpreter
+                        </Accordion.Toggle>
+                      </Card.Header>
+                      <Accordion.Collapse eventKey="5">
                         <Card.Body>
                           <Project_proyectos
                             title="Nondeterministic Finite Automata for Modeling an Ecuadorian Sign Language Interpreter"

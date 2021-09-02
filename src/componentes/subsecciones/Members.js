@@ -45,9 +45,11 @@ const Members = ({ idioma }) => {
         <br />
         <div class="container">
           <div class="row">
+            {/* <div class="col-md-3 animate__animated animate__fadeIn"></div> */}
             <Miembros_card nombre={"Paulina"} apellido={"Morillo"} email={"pmorillo@ups.edu.ec"} foto={paulina} />
             <Miembros_card nombre={"Rodrigo"} apellido={"Tufiño"} email={"rtufino@ups.edu.ec"} foto={tufinio} />
             <Miembros_card nombre={"Maria"} apellido={"Cazares"} email={"mcazares@ups.edu.ec"} foto={mafer} />
+            {/* <div class="col-md-3 animate__animated animate__fadeIn"></div> */}
           </div>
         </div>
 

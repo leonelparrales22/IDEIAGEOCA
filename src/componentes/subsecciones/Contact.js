@@ -37,10 +37,10 @@ const Contact = ({ idioma }) => {
                 <span class="color-text-a">
                   <br />
                   <b>{texto.Coordinador}</b> <br />
-                  Ing. Gustavo Ernesto Navas Ruilova, MSc. <br />
+                  Ing. Julio Ricardo Proaño Orellana MSc, PhD. <br />
                   <br />
                   <b>{texto.Contacto}</b> <br />
-                  gnavas@ups.edu.ec
+                  jproanoo@ups.edu.ec
                 </span>
               </div>
             </div>
